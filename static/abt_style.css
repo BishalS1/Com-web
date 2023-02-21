@@ -1,0 +1,96 @@
+*{
+    
+    color: white;
+    font-size: 20px;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+.body1{
+    margin: 2px;
+    padding: 2px;
+}
+nav {
+    padding: 2% 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 100px;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+
+.text-container{
+    text-align: justify;
+}
+.mep1{
+    justify-content: space-between;
+    display: flex;
+}
+.imageoffounder{
+    flex: auto;
+    width: 25%;
+}
+.imageoffounder img{
+    width: 400px;
+    height: 200px;
+}
+.text{
+    flex: auto;
+    width: 65%;
+    text-align: justify;
+}
+.team-container{
+    margin: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+.persons{
+    flex-basis: 24%;
+    background-color: #685252;
+    border-radius: 10px;
+    margin-bottom: 2%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.persons img{
+    width: 150px;
+    height:150px;
+    border-radius: 50%;
+}

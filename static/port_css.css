@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+* {
+    font-family: 'Mukta', sans-serif;
+    color: white;
+}
+
+strong {
+    color: black;
+}
+
+.body1 {
+    margin: 2px;
+    padding: 2px;
+}
+
+nav {
+    padding: 2% 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 100px;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+
+.portfolio {
+    width: auto;
+    display: flex;
+    font-family: bjpg;
+}
+
+.sidebar {
+    flex-basis: 20%;
+    text-align: center;
+    border: 2px;
+    background-color: rgb(104, 104, 104);
+    height: 100vh;
+    padding: 1%;
+}
+
+.sidebar img {
+    width: 150px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+/* .social-icons{
+    font-size: 80px;
+} */
+.otherinfo {
+    flex-basis: 80%;
+    margin: 3%;
+}
+
+.Misson {
+    color: #000;
+    background-color: #ffdddd;
+    border-left: 6px solid #f44336;
+}
+
+.vision {
+    background-color: #ffffcc;
+    border-left: 6px solid #ffe600;
+}
+
+.objective {
+
+    background-color: #ddffdd;
+    border-left: 6px solid #04AA6D;
+
+
+}
+
+.Misson p {
+    color: #000;
+}
+
+.vision p {
+    color: #000;
+}
+
+.objective p {
+    color: #000;
+}
+.portfolio{
+    display: flex;
+}
+.timeline {
+    position: relative;
+    width: 50%;
+    margin: 50px 0;
+    padding: 0;
+    margin-right: 2%;
+
+    margin-top: 5px;
+}
+
+.event {
+    position: relative;
+    margin: 0 0 50px 0;
+    padding: 0 0 0 70px;
+}
+
+.event .date {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.event .description {
+    margin: 0;
+    padding: 10px;
+    background-color: #f2f2f2;
+    color: #000;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+hr {
+    border: none;
+    border-left: 1px solid rgb(201, 201, 201);
+    height: 50vh;
+  }
+.achievement {
+    margin-top: 5px;
+    width: 50%;
+    flex-basis: 50%;
+    margin: 50px 0;
+    margin-left: 4%;
+}
+.achievement img{
+    border-radius: 4%;
+    text-align: center;
+}
